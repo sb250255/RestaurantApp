@@ -1,0 +1,129 @@
+<header class="top-navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="../assets/images/logo.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbars-rs-food">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a class="nav-link" routerLink="">Home</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="menu">Menu</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="about">About</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="catering">Catering</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="groceries">Groceries</a></li>
+          <li class="nav-item" routerLinkActive="active"><a class="nav-link" routerLink="contact">Contact</a></li>
+
+
+       
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- End header -->
+
+<router-outlet> </router-outlet>
+
+
+<!-- <app-home></app-home>
+
+<app-menu> </app-menu> -->
+<!-- End Contact info -->
+
+  <!-- End Customer Reviews -->
+  
+  <!-- Start Contact info -->
+  <div class="contact-imfo-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fa fa-volume-control-phone"></i>
+          <div class="overflow-hidden">
+            <h4>Phone</h4>
+            <p class="lead">
+              +1 (438) 380-4567
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-envelope"></i>
+          <div class="overflow-hidden">
+            <h4>Email</h4>
+            <p class="lead">
+              ourplacemontreal at gmail.com
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <i class="fa fa-map-marker"></i>
+          <div class="overflow-hidden">
+            <h4>Location</h4>
+            <p class="lead">
+              1437 René-Lévesque Blvd W, Montreal, Quebec H3G 1T7
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Start Footer -->
+<footer class="footer-area bg-f">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <h3>About Us</h3>
+        <p> Welcome to OurPlace, where we celebrate the rich and diverse flavors of South India. Our culinary journey begins with authentic recipes passed down through generations, featuring a blend of traditional spices and fresh, locally sourced ingredients. </p>\
+        <!-- At [Your Restaurant Name], we pride ourselves on crafting a memorable dining experience with our extensive menu that includes beloved dishes like dosas, idlis, sambar, and biryanis. Each dish is prepared with care and served with a touch of hospitality that reflects the warmth of South Indian culture. Whether you're here for a hearty meal or a light snack, we invite you to savor the taste of tradition and join us in experiencing the true essence of South Indian cuisine. -->
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h3>Opening hours</h3>
+        <p><span class="text-color">Wednesday: </span>Closed</p>
+        <p><span class="text-color">Tue-Wed :</span> 12 - 10PM</p>
+        <p><span class="text-color">Thu-Fri :</span> 12 - 10PM</p>
+        <p><span class="text-color">Sat-Sun :</span> 12 - 10PM</p>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h3>Contact information</h3>
+        <p class="lead">1437 René-Lévesque Blvd W, Montreal, Quebec H3G 1T7</p>
+        <p class="lead"><a href="#">(438) 380-4567</a></p>
+        <!-- <p><a href="#"> info at admin.com</a></p> -->
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <h3>Subscribe</h3>
+        <div class="subscribe_form">
+          <form class="subscribe_form">
+            <input name="EMAIL" id="subs-email" class="form_input" placeholder="Email Address..." type="email">
+            <button type="submit" class="submit">SUBSCRIBE</button>
+            <div class="clearfix"></div>
+          </form>
+        </div>
+        <ul class="list-inline f-social">
+          <li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> -->
+          <!-- <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> -->
+          <li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="company-name">All Rights Reserved. &copy; 2018 <a href="#"> VJ Cloud Technologies</a> Design By : Beela
+       
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</footer>

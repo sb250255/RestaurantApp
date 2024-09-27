@@ -1,0 +1,2938 @@
+
+  <!-- Start Menu -->
+
+  <br/> <br/>
+  <div class="menu-box">
+    <div class="container">
+        <div class="col-lg-12">
+            <div class="heading-title text-center">
+                <h2>Mostly Ordered</h2>
+                <p>Explore our mostly ordered dishes, featuring a delightful selection of South Indian favorites that are sure to tantalize your taste buds. Experience the taste of tradition with every bite.</p>
+                
+            </div>
+          </div>
+
+          <div class="row special-list">
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-01.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4>Appetizers</h4>
+                        <p>Discover our delightful range of appetizers</p>
+
+                        <h5> Starting from $4.99</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-02.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4> Biriyani's </h4>
+                        <p>A popular spiced and flavored dish in the Indian subcontinent cooked with basmati rice, meat, or vegetables</p>
+                        <h5>Starting from $13.99</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-04.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4>Dosa's</h4>
+                    <p>A crispy, thin, and savory pancake made from fermented rice and lentil batter. </p>
+                        <h5> $10.99</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-03.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4>Thali’s</h4>
+<p>Enjoy a diverse selection of Veg and Non-Veg Thali's, offering a comprehensive meal with a variety of flavors and dishes.</p>
+<h5>Starting from $20.99</h5>
+
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-05.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4>Tiffins</h4>
+<p>Explore our variety of Tiffins. Perfect for a satisfying breakfast or a light meal.</p>
+<h5>Starting from $11.99</h5>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 special-grid drinks">
+                <div class="gallery-single fix">
+                    <img src="../assets/images/img-06.jpg" class="img-fluid" alt="Image">
+                    <div class="why-text">
+                        <h4>Special Drinks</h4>
+                        <p>Refresh yourself with our selection of Special Drinks, including both unique and traditional beverages. </p>
+                        <h5>Starting from $4.29</h5>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="heading-title text-center">
+            <br/>
+            <h2 style="text-align: center; color: #f39c12; font-family: 'Arial', sans-serif; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+                <span style="font-size: 2.5em; display: inline-block;">🍽️</span> MENU <span style="font-size: 2.5em; display: inline-block;">📜</span>
+            </h2>
+          
+         
+        
+            
+            
+            <p>Explore our exclusive Special Menu, featuring a delightful selection of South Indian dishes that are sure to tantalize your taste buds. From our signature Dosa varieties to flavorful Biryani and Pulav, each dish is crafted with authentic spices and ingredients, bringing the rich culinary traditions of India to your plate. Experience the taste of tradition with every bite.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="special-menu text-center">
+            <div class="button-group filter-button-group">
+              
+              <button [ngClass]="{'active': menuId === 0}" (click)="displayMenu(0)" >All</button>
+              <button [ngClass]="{'active': menuId === 1}" (click)="displayMenu(1)">VEG APPETIZERS</button>
+              <button [ngClass]="{'active': menuId === 2}" (click)="displayMenu(2)">NON-VEG APPETIZERS</button>
+              <button [ngClass]="{'active': menuId === 3}" (click)="displayMenu(3)">KOTHUS</button>
+              <button [ngClass]="{'active': menuId === 4}" (click)="displayMenu(4)">DOSAS</button>
+              <button [ngClass]="{'active': menuId === 5}" (click)="displayMenu(5)"> IDLYS </button>
+              <button [ngClass]="{'active': menuId === 6}" (click)="displayMenu(6)">UTHAPPAM</button>
+              <button [ngClass]="{'active': menuId === 7}" (click)="displayMenu(7)">TIFFINS</button>
+              <button [ngClass]="{'active': menuId === 8}" (click)="displayMenu(8)"> BIRIYANI's </button>
+              <button [ngClass]="{'active': menuId === 9}" (click)="displayMenu(9)"> VEG CURRIES </button>
+              <button [ngClass]="{'active': menuId === 10}" (click)="displayMenu(10)"> CURRIES </button>
+              <button [ngClass]="{'active': menuId === 11}" (click)="displayMenu(11)"> RICE ITEMS </button>
+              <button [ngClass]="{'active': menuId === 12}" (click)="displayMenu(12)"> BREADS </button>
+              <button [ngClass]="{'active': menuId === 13}" (click)="displayMenu(13)"> EXTRAS  </button>
+              <button [ngClass]="{'active': menuId === 14}" (click)="displayMenu(14)"> DESSERTS </button>
+              <button [ngClass]="{'active': menuId === 15}" (click)="displayMenu(15)"> DRINKS  </button>
+              <button [ngClass]="{'active': menuId === 16}" (click)="displayMenu(16)"> THALI’S </button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+     
+  </div>
+
+<!-- ALL  -->
+ <div *ngIf="menuId === 0">
+    <div class="menu-section">
+        <h2>SOUPS / SOUPES</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Daal soup / Soupe aux lentilles</p>
+            </div>
+            <div class="item-price">9.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Mix Veg Daal soup / Soupe aux lentilles et légumes</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+    </div>
+    
+    <!-- VEGETARIAN APPETIZERS / APÉRITIFS VÉGÉTARIENS -->
+    <div class="menu-section">
+        <h2>VEGETARIAN APPETIZERS / APÉRITIFS VÉGÉTARIENS</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Oignon Bhaji / Onion Bhaji</p>
+                <p class="item-description">Légèrement épicé et les oignons odorantes liées ensemble et frits avec farine de pois chiche et servis avec sauce de tamarin. <br>Lightly spiced and fragrant onions bound together and fried with chickpea flour and served with tamarind chutney.</p>
+            </div>
+            <div class="item-price">7.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Bhajii Piment / Chilli Bhaji</p>
+                <p class="item-description">Une collation épicée et croustillant de piments verts frits dans farine de pois chiche et servis avec une sauce. <br>A popular south Indian spicy and crispy snack of green chillies fried in gram flour batter.</p>
+            </div>
+            <div class="item-price">7.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Samosa</p>
+                <p class="item-description">Une pâtisserie frite avec remplissage moelleux et savoureux de pommes de terre épicées, oignons et lentilles et servis avec une sauce de tamarin. <br>A fried pastry with fluffy and savory filling of spiced potatoes, onions and lentils, and served with tamarind sauce.</p>
+            </div>
+            <div class="item-price">4.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Crispy Corn Rolls / Rouleaux au mais</p>
+                <p class="item-description">Une pâte frite avec garniture croustillante et savoureuse de maïs doux épicé, pommes de terre, oignons et lentilles, le tout servi avec une sauce au piment sucré. <br>A fried pastry with crispy and savory filling of spiced sweetcorn, potatoes, onions and lentils, and served with sweet chilli sauce.</p>
+            </div>
+            <div class="item-price">8.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chana Samosa Chat</p>
+                <p class="item-description">Une Samosa brisée en morceaux avec chutney vert et sucre garni d'oignon, coriandre, épices piquantes et une touche de caille. <br>Samosa is broken into pieces with green and sweet chutney garnished with onion, coriander, hot spices and a dash of curd.</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Légume Manchurian / Veg Manchurian</p>
+                <p class="item-description">Morceaux de Légumes avec une pâte épicée, frits et enrobés d'épices et sauce. <br>Mix vegetable balls deep fried with a spiced batter, coated with spices and sauce.</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Paneer Pakora</p>
+                <p class="item-description">Fromage Indien frit enrobé d'épices et garni de coriandre. <br>Deep fried Indian cheese battered in spices and garnished with cilantro.</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Paneer 65</p>
+                <p class="item-description">Fromage Indien frit enrobé d'épices et d'oignons sautés, de feuilles de curry et de sauce. <br>Deep fried Indian cheese battered in spices and sauteed with onions, curry leaves, and sauce.</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Tikka Paneer</p>
+                <p class="item-description">Fromage Indien fait maison marinée dans des épices tandoori, cuit au four tandoor et servi avec une sauce yogourt à la menthe. <br>Homemade Indian cheese marinated in tandoori spices, cooked in tandoor oven and served with yogurt mint sauce.</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+    </div>
+    
+    <!-- NON-VEGETARIAN APPETIZERS / APÉRITIFS NON VÉGÉTARIENS -->
+    <div class="menu-section">
+        <h2>NON-VEGETARIAN APPETIZERS / APÉRITIFS NON VÉGÉTARIENS</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Rouleaux au Agneau Fromage / Lamb Cheese Rolls</p>
+                <p class="item-description">Une pâtisserie frite avec garniture croustillante et savoureuse d'agneau épicé, de fromage, servi avec sauce de piment sucré. <br>A fried pastry with crispy and savory filling of spiced lamb, cheese, served with sweet chilli sauce.</p>
+            </div>
+            <div class="item-price">10.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet 65 / Chicken 65</p>
+                <p class="item-description">Poulet désossé mariné d’épices et frit avec des oignon sauté, feuilles de curry et sauce. <br>Deep fried boneless chicken battered in spices and sauteed onion, curry leaves and sauce.</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet Tandouri / Tandoori Chicken</p>
+                <p class="item-description">
+                    Cuisses de poulet marinées dans des épices tandoori, cuites au four tandoor, badigeonnées de jus de lime fumé et servies avec de la sauce yogourt à la menthe.<br>
+                    Chicken legs marinated in tandoori spices, cooked in tandoor oven, served with yogurt, mint sauce.
+                </p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Saumon Tandoori / Tandoori Salmon</p>
+                <p class="item-description">
+                    Saumon désossé mariné dans des épices tandoori, cuit au four tandoor, badigeonné de jus de lime fumée et servi avec sauce au yogourt et à la menthe.<br>
+                    Boneless salmon marinated in tandoori spices, cooked in tandoor oven, brushed with smoky lime juice and served with yogurt mint sauce.
+                </p>
+            </div>
+            <div class="item-price">17.99$</div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet Lollipop / Chicken Lollipop</p>
+                <p class="item-description">
+                    Cuisses de poulet frites, mélangées à une sauce lollipop avec des feuilles de curry et des oignons.<br>
+                    Deep fried chicken drumsticks tossed up in a lollipop sauce along with curry leaves and onions.
+                </p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poisson Apollo / Apollo Fish</p>
+                <p class="item-description">
+                    Poisson désossé mariné dans une pâte puis frit et mélangé avec une sauce Apollo.<br>
+                    Boneless fish marinated with batter then fried and tossed up with Apollo sauce.
+                </p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+    </div>
+    
+    <div class="menu-section">
+        <h2>KOTHUS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Parotta Hache / VegKothu Parotta</p>
+                <p class="item-description">
+                    Parotta finement haché et sauté avec des légumes et des épices.<br>
+                    Parotta finely chopped and stir fried with vegetables and spices.
+                </p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Parotta Hache / EggKothu Parotta</p>
+                <p class="item-description">
+                    Parotta finement haché et sauté avec des oeufs et épices.<br>
+                    Parotta finely chopped and stir fried with egg and spices.
+                </p>
+            </div>
+            <div class="item-price">15.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Parotta Hache / ChickenKothu Parotta</p>
+                <p class="item-description">
+                    Parotta finement haché et sauté avec du poulet et des épices.<br>
+                    Parotta finely chopped and stir fried with chicken and spices.
+                </p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Parotta Hache / LambKothu Parotta</p>
+                <p class="item-description">
+                    Parotta finement haché et sauté avec de l'agneau et des épices.<br>
+                    Parotta finely chopped and stir fried with lamb and spices.
+                </p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+    </div>
+    
+    <div class="menu-section">
+        <h2> DOSAS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Plain Dosa / Dosa Nature</p>
+                <p class="item-description">
+                    Notre spécialité, la célèbre dosa, est une crêpe incroyablement fine créée avec une pâte à base de riz concassé fermenté et de lentilles.<br>
+                    Our speciality, the famous dosa, is an incredibly thin crepe created with a batter of fermented crushed rice and lentils.
+                </p>
+            </div>
+            <div class="item-price">10.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au chocolat / Chocolate Dosa</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Onion Masala Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Masala Dosa / Dosa au Masala</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Paneer Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Palak Paneer Dosa / Dosa au Epinard et Fromage</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Sett Dosa (3)</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Egg Dosa / Dosa au Œuf</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chicken Masala Dosa / Dosa au Poulet</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Lamb Masala Dosa / Dosa au L’Agneau</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Shrimp Masala Dosa / Dosa aux Crevettes</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Italian Spread Dosa / Dosa au Fromage Italien</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chana Masala Dosa / Dosa aux Pois Chiches</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Agneau Keema Dosa / Lamb Keema Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Ghee Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cheese Garlic Dosa / Dosa à l’Ail et Fromage</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Nellore Chitti Kaaram Dosa (3)</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Ghee Podi Sett Dosa (3)</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> CHILLI GARLIC DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'ail et au piment ordinaire / Plain Chilly Garlic Dosa</p>
+                <p class="item-description">
+                    Crêpe croustillante garnie de masala de pommes de terre épicé et agrémentée d’une fine couche de chutney robuste au piment et à l’ail.<br>
+                    A crispy crepe filled with spicy potato masala and laced with thin layer of robust chili-garlic chutney.
+                </p>
+            </div>
+            <div class="item-price">12.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala aux oignons, à l'ail et au piment / Chilly Garlic Onion Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au poulet, à l'ail et au piment / Chilly Garlic Chicken Masala Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala à l'agneau, à l'ail et au piment / Chilly Garlic Lamb Masala Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au paneer, à l'ail et au piment / Chilly Garlic Paneer Masala Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa aux œufs, à l'ail et au piment / Chilly Garlic Egg Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="menu-section">
+        <h2> CHETTINAD DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire Chettinad / Chettinad Plain Dosa</p>
+            </div>
+            <div class="item-price">12.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa aux oignons Chettinad / Chettinad Onion Dosa</p>
+            </div>
+            <div class="item-price">13.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala Chettinad / Chettinad Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa aux œufs Chettinad / Chettinad Egg Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au paneer Chettinad / Chettinad Paneer Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au poulet Chettinad / Chettinad Chicken Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'agneau Chettinad / Chettinad Lamb Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> SCHEZWAN DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire Schezwan / Schezwan Plain Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala Schezwan / Schezwan Masala Dosa</p>
+            </div>
+            <div class="item-price">13.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au paneer Schezwan / Schezwan Paneer Masala Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au ghee Schezwan / Schezwan Ghee Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au fromage Schezwan / Schezwan Cheese Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Zinni Schezwan / Schezwan Zinni Dosa</p>
+            </div>
+            <div class="item-price">15.49$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> PAV BHAJI DOSA </h2>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Pav Bhaji au Ghee / Ghee Pav Bhaji Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Pav Bhaji au Fromage / Cheese Pav Bhaji Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Pav Bhaji au Paneer / Paneer Pav Bhaji Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Pav Bhaji aux Oignons et au Piment / Chilli Onion Pav Bhaji Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> GUNTUR GONGURA ACHARI DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire à l'achari de Gongura / Gongura Plain Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala à l'achari de Gongura / Gongura Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au poulet à l'achari de Gongura / Gongura Chicken Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'agneau à l'achari de Gongura / Gongura Lamb Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+    
+    </div>
+    
+    <div class="menu-section">
+        <h2> MYSORE DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire de Mysore / Mysore Plain Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au ghee de Mysore / Mysore Ghee Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au fromage de Mysore / Mysore Cheese Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala de Mysore / Mysore Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au paneer de Mysore / Mysore Paneer Masala Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    
+    </div>
+    
+    <div class="menu-section">
+        <h2> CORIANDER DOSA </h2>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au coriandre ordinaire / Plain Coriander Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au coriandre / Coriander Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au coriandre au ghee / Ghee Coriander Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> UPMA DOSA </h2>
+    
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire à l'Upma / Upma Plain Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa Karam à l'Upma / Upma Karam Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'Upma au ghee / Upma Ghee Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'Upma aux noix de cajou / Cashew Upma Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'Upma de Mysore / Mysore Upma Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'Upma Chettinad / Chettinad Upma Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa à l'Upma à l'ail et au piment / Chilli Garlic Upma Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> KARAPPODI DOSA </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa ordinaire au karapodi / Karappodi Plain Dosa</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au ghee au karapodi / Karappodi Ghee Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au karapodi / Karappodi Masala Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa aux oignons au karapodi / Karappodi Onion Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala au poulet au karapodi / Karappodi Chicken Masala Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa masala à l'agneau au karapodi / Karappodi Lamb Masala Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa aux œufs au karapodi / Karappodi Egg Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa au paneer au karapodi / Karappodi Paneer Dosa</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="menu-section">
+        <h2>IDLYS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Idly</p>
+            </div>
+            <div class="item-price">9.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Podi Idly</p>
+            </div>
+            <div class="item-price">10.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Sambar Idly</p>
+            </div>
+            <div class="item-price">10.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Rasam Idly</p>
+            </div>
+            <div class="item-price">10.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="menu-section">
+        <h2>  UTHAPPAM </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam aux oignons / Onion Uthappam</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam aux oignons et au piment / Chilli Onion Uthappam</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam aux tomates et aux oignons / Tomato Onion Uthappam</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam aux légumes mélangés / Mixed Vegetable Uthappam</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam masala / Masala Uthappam</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam au fromage / Cheese Uthappam</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Uthappam pizza au fromage / Cheese Pizza Uthappam</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="menu-section">
+        <h2> RAVVA DOSAS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Dosa de Ravva / Plain Ravva Dosa</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Oignon Ravva Dosa / Onion Ravva Dosa</p>
+            </div>
+            <div class="item-price">14.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chilli Oignon Ravva masala Dosa / Chilli Onion Ravva Masala Dosa</p>
+            </div>
+            <div class="item-price">15.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Ravva Dosa au Curry de Pommes de Terre / Ravva Masala</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Fromage Ravva Dosa / Cheese Ravva Dosa</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Oignon Ravva masala Dosa / Onion Ravva Masala Dosa</p>
+            </div>
+            <div class="item-price">15.49$</div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="menu-section">
+        <h2> TRADITIONAL TIFFENS / TRADITIONNEL DE TIFFENS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Vada Lentilles / Sambar Vada</p>
+                <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Vada (4 unités / units)</p>
+                <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Vadamélangé au Yaourt / Dahi Vada</p>
+                <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Venpongal / Venpongal</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poori sabji / Poori avec cari des legumes</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="menu-section">
+        <h2> BIRYANI’s </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Biryani aux Legumes / Vegetable Briyani</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Biryani aux œufs / Egg Biryani</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet Biryani / Chicken Briyani</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet 65 Biryani / Chicken 65 Biryani</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Biryani de Mouton / Mutton Briyani</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Biryani de Poisson Apollo / Apollo Fish Biryani</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    
+    <div class="menu-section">
+        <h2> VEG CURRIES/ CARIS AU LÉGUMES </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Shahi Fromage Indien / Shahi Paneer</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Fromage Indien servi dans une purée d'épinard / Palak Paneer</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Une préparation Aubergine et Patate / Eggplant Potato</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Patate Choux Fleur Cari / Aloo Ghobi</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un mélange des Légumes Parfumées aux épices douces / Mix Veg Korma</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari de pois Chiches / Chana Masala</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari aux Lentilles du Sud de l’Inde / South Indian Dhal</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chilli Paneer</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari au Bébé Mais / Baby Corn Curry</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> CURRIES/ NOS CARIS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet au Beurre / Butter Chicken</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari de Poulet de style Andhra / Andhra Chicken Curry</p>
+            </div>
+            <div class="item-price">14.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari de Poulet de style Gongura / Gongura Chicken Curry</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet Indien Servi dans une Purée d’épinard / Chicken Saag</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Morceaux de Poulet style Korma / Chicken Korma</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet Chipotle Tikka / Chicken Chipotle Tikka</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Morceaux d'Agneau style Shazhani / Lamb Shazhani</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Morceaux d’Agneau style Jalfrezi / Lamb Jalfrezi</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Morceaux d’Agneau style Korma / Lamb Korma</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Morceaux d’Agneau style Gongura / Lamb Gongura</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Agneau Indien Servi dans une Purée d’épinard / Lamb Saag</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari aux Crevettes / Shrimp Curry</p>
+            </div>
+            <div class="item-price">17.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Cari de Poisson Saumon / Salmon Fish Curry</p>
+            </div>
+            <div class="item-price">17.99$</div>
+        </div>
+        
+    
+    </div>
+    
+    <div class="menu-section">
+        <h2> TRADITIONAL RICE ITEMS / TRADITIONNEL DE RIZ</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Lentilles / Sambar Rice</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Riz mélangé au Yaourt et grains de moutarde, feuille de cari / Curd Rice</p>
+            </div>
+            <div class="item-price">12.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Riz frit aux légumes / Veg Fried Rice</p>
+            </div>
+            <div class="item-price">13.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Riz frit au poulet / Chicken Fried Rice</p>
+            </div>
+            <div class="item-price">15.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Riz frit à l'agneau / Lamb Fried Rice</p>
+            </div>
+            <div class="item-price">16.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> BREADS/ PAINS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un pain de farine blanche style Tandour / Tandoor Naan</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un pain de farine blanche avec de l’ail style Tandour / Garlic Naan</p>
+            </div>
+            <div class="item-price">4.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un pain plat de blé entier sans levain / Roti</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un pain de farine blanche avec Fromage / Cheese Naan</p>
+            </div>
+            <div class="item-price">5.99$</div>
+        </div>
+        
+    </div>
+    
+    <div class="menu-section">
+        <h2> EXTRAS /SUPPLÉMENTAIRE </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Riz / Rice</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Raitha</p>
+            </div>
+            <div class="item-price">2.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Un ragoût de légumes à la base de lentilles / Sambar</p>
+            </div>
+            <div class="item-price">2.49$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Chutney (tamarin, noix de coco, gingembre, menthe) / Chutney</p>
+            </div>
+            <div class="item-price">1.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Masala de pommes de terre pour dosas / Dosa Masala</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Fromage / Cheese</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Papads / Fryums</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="menu-section">
+        <h2> DESSERTS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Kesar Rasmalai</p>
+            </div>
+            <div class="item-price">5.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Mango Rasmalai</p>
+            </div>
+            <div class="item-price">5.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Lassi à la Mangue / Mango Lassi</p>
+            </div>
+            <div class="item-price">6.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Lassi à la Épice / Salty Masala Lassi</p>
+            </div>
+            <div class="item-price">6.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Boules de fromage en sirop avec de la crème glacée / Ice Cream Gulab Jamun</p>
+            </div>
+            <div class="item-price">6.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Falooda avec de la crème glacée / Falooda with Ice Cream</p>
+            </div>
+            <div class="item-price">11.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="menu-section">
+        <h2> DRINKS /BOISSONS </h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Bouteille d'Eau / Water Bottle</p>
+            </div>
+            <div class="item-price">1.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Boisson Gazeuse / Soft Drink</p>
+            </div>
+            <div class="item-price">1.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Boisson Gazeuse Indienne / Indian Soft Drink</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Bouteille de Jus / Juice Bottle</p>
+            </div>
+            <div class="item-price">2.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Perrier</p>
+            </div>
+            <div class="item-price">3.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Café Sud-Indien / South Indian Coffee</p>
+            </div>
+            <div class="item-price">4.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Masala Chai</p>
+            </div>
+            <div class="item-price">4.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Badam Chai</p>
+            </div>
+            <div class="item-price">5.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Badam Milk</p>
+            </div>
+            <div class="item-price">9.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Horlicks / Boost</p>
+            </div>
+            <div class="item-price">5.99$</div>
+        </div>
+        
+    </div>
+    
+    
+    <div class="menu-section">
+        <h2>MAHA RAJA THALI’S</h2>
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Végétariens / Vegetarian Thali</p>
+                <p class="item-description">Le repas inclut trois portions de caris prédéterminés avec salade, apéritif, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of three predetermined curries along with salad, appetizer, sambar, raitha, papad, dessert served with rice and roti.</p>
+            </div>
+            <div class="item-price">20.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet / Chicken Thali</p>
+                <p class="item-description">Le repas inclut une portion de cari de poulet, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of chicken curry and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+            </div>
+            <div class="item-price">22.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Agneau / Lamb Thali</p>
+                <p class="item-description">Le repas inclut une portion de cari d’agneau, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of lamb curry and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+            </div>
+            <div class="item-price">24.99$</div>
+        </div>
+        
+        <div class="menu-item">
+            <div class="item-info">
+                <p class="item-name">Poulet au beurre / Butter Chicken Thali</p>
+                <p class="item-description">Le repas inclut une portion de cari de poulet au beurre, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of butter chicken and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+            </div>
+            <div class="item-price">24.99$</div>
+        </div>
+        
+    </div>
+    
+ </div>
+
+ <!-- SOUPS / SOUPES -->
+<div class="menu-section" *ngIf="menuId === 1">
+    <h2>SOUPS / SOUPES</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Daal soup / Soupe aux lentilles</p>
+        </div>
+        <div class="item-price">9.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Mix Veg Daal soup / Soupe aux lentilles et légumes</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+</div>
+
+<!-- VEGETARIAN APPETIZERS / APÉRITIFS VÉGÉTARIENS -->
+<div class="menu-section" *ngIf="menuId === 1">
+    <h2>VEGETARIAN APPETIZERS / APÉRITIFS VÉGÉTARIENS</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Oignon Bhaji / Onion Bhaji</p>
+            <p class="item-description">Légèrement épicé et les oignons odorantes liées ensemble et frits avec farine de pois chiche et servis avec sauce de tamarin. <br>Lightly spiced and fragrant onions bound together and fried with chickpea flour and served with tamarind chutney.</p>
+        </div>
+        <div class="item-price">7.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Bhajii Piment / Chilli Bhaji</p>
+            <p class="item-description">Une collation épicée et croustillant de piments verts frits dans farine de pois chiche et servis avec une sauce. <br>A popular south Indian spicy and crispy snack of green chillies fried in gram flour batter.</p>
+        </div>
+        <div class="item-price">7.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Samosa</p>
+            <p class="item-description">Une pâtisserie frite avec remplissage moelleux et savoureux de pommes de terre épicées, oignons et lentilles et servis avec une sauce de tamarin. <br>A fried pastry with fluffy and savory filling of spiced potatoes, onions and lentils, and served with tamarind sauce.</p>
+        </div>
+        <div class="item-price">4.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Crispy Corn Rolls / Rouleaux au mais</p>
+            <p class="item-description">Une pâte frite avec garniture croustillante et savoureuse de maïs doux épicé, pommes de terre, oignons et lentilles, le tout servi avec une sauce au piment sucré. <br>A fried pastry with crispy and savory filling of spiced sweetcorn, potatoes, onions and lentils, and served with sweet chilli sauce.</p>
+        </div>
+        <div class="item-price">8.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chana Samosa Chat</p>
+            <p class="item-description">Une Samosa brisée en morceaux avec chutney vert et sucre garni d'oignon, coriandre, épices piquantes et une touche de caille. <br>Samosa is broken into pieces with green and sweet chutney garnished with onion, coriander, hot spices and a dash of curd.</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Légume Manchurian / Veg Manchurian</p>
+            <p class="item-description">Morceaux de Légumes avec une pâte épicée, frits et enrobés d'épices et sauce. <br>Mix vegetable balls deep fried with a spiced batter, coated with spices and sauce.</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Paneer Pakora</p>
+            <p class="item-description">Fromage Indien frit enrobé d'épices et garni de coriandre. <br>Deep fried Indian cheese battered in spices and garnished with cilantro.</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Paneer 65</p>
+            <p class="item-description">Fromage Indien frit enrobé d'épices et d'oignons sautés, de feuilles de curry et de sauce. <br>Deep fried Indian cheese battered in spices and sauteed with onions, curry leaves, and sauce.</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Tikka Paneer</p>
+            <p class="item-description">Fromage Indien fait maison marinée dans des épices tandoori, cuit au four tandoor et servi avec une sauce yogourt à la menthe. <br>Homemade Indian cheese marinated in tandoori spices, cooked in tandoor oven and served with yogurt mint sauce.</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+</div>
+
+<!-- NON-VEGETARIAN APPETIZERS / APÉRITIFS NON VÉGÉTARIENS -->
+<div class="menu-section" *ngIf="menuId === 2">
+    <h2>NON-VEGETARIAN APPETIZERS / APÉRITIFS NON VÉGÉTARIENS</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Rouleaux au Agneau Fromage / Lamb Cheese Rolls</p>
+            <p class="item-description">Une pâtisserie frite avec garniture croustillante et savoureuse d'agneau épicé, de fromage, servi avec sauce de piment sucré. <br>A fried pastry with crispy and savory filling of spiced lamb, cheese, served with sweet chilli sauce.</p>
+        </div>
+        <div class="item-price">10.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet 65 / Chicken 65</p>
+            <p class="item-description">Poulet désossé mariné d’épices et frit avec des oignon sauté, feuilles de curry et sauce. <br>Deep fried boneless chicken battered in spices and sauteed onion, curry leaves and sauce.</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet Tandouri / Tandoori Chicken</p>
+            <p class="item-description">
+                Cuisses de poulet marinées dans des épices tandoori, cuites au four tandoor, badigeonnées de jus de lime fumé et servies avec de la sauce yogourt à la menthe.<br>
+                Chicken legs marinated in tandoori spices, cooked in tandoor oven, served with yogurt, mint sauce.
+            </p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Saumon Tandoori / Tandoori Salmon</p>
+            <p class="item-description">
+                Saumon désossé mariné dans des épices tandoori, cuit au four tandoor, badigeonné de jus de lime fumée et servi avec sauce au yogourt et à la menthe.<br>
+                Boneless salmon marinated in tandoori spices, cooked in tandoor oven, brushed with smoky lime juice and served with yogurt mint sauce.
+            </p>
+        </div>
+        <div class="item-price">17.99$</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet Lollipop / Chicken Lollipop</p>
+            <p class="item-description">
+                Cuisses de poulet frites, mélangées à une sauce lollipop avec des feuilles de curry et des oignons.<br>
+                Deep fried chicken drumsticks tossed up in a lollipop sauce along with curry leaves and onions.
+            </p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poisson Apollo / Apollo Fish</p>
+            <p class="item-description">
+                Poisson désossé mariné dans une pâte puis frit et mélangé avec une sauce Apollo.<br>
+                Boneless fish marinated with batter then fried and tossed up with Apollo sauce.
+            </p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+</div>
+
+<div class="menu-section" *ngIf="menuId === 3">
+    <h2>KOTHUS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Parotta Hache / VegKothu Parotta</p>
+            <p class="item-description">
+                Parotta finement haché et sauté avec des légumes et des épices.<br>
+                Parotta finely chopped and stir fried with vegetables and spices.
+            </p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Parotta Hache / EggKothu Parotta</p>
+            <p class="item-description">
+                Parotta finement haché et sauté avec des oeufs et épices.<br>
+                Parotta finely chopped and stir fried with egg and spices.
+            </p>
+        </div>
+        <div class="item-price">15.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Parotta Hache / ChickenKothu Parotta</p>
+            <p class="item-description">
+                Parotta finement haché et sauté avec du poulet et des épices.<br>
+                Parotta finely chopped and stir fried with chicken and spices.
+            </p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Parotta Hache / LambKothu Parotta</p>
+            <p class="item-description">
+                Parotta finement haché et sauté avec de l'agneau et des épices.<br>
+                Parotta finely chopped and stir fried with lamb and spices.
+            </p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> DOSAS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Plain Dosa / Dosa Nature</p>
+            <p class="item-description">
+                Notre spécialité, la célèbre dosa, est une crêpe incroyablement fine créée avec une pâte à base de riz concassé fermenté et de lentilles.<br>
+                Our speciality, the famous dosa, is an incredibly thin crepe created with a batter of fermented crushed rice and lentils.
+            </p>
+        </div>
+        <div class="item-price">10.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au chocolat / Chocolate Dosa</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Onion Masala Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Masala Dosa / Dosa au Masala</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Paneer Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Palak Paneer Dosa / Dosa au Epinard et Fromage</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Sett Dosa (3)</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Egg Dosa / Dosa au Œuf</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chicken Masala Dosa / Dosa au Poulet</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Lamb Masala Dosa / Dosa au L’Agneau</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Shrimp Masala Dosa / Dosa aux Crevettes</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Italian Spread Dosa / Dosa au Fromage Italien</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chana Masala Dosa / Dosa aux Pois Chiches</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Agneau Keema Dosa / Lamb Keema Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Ghee Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cheese Garlic Dosa / Dosa à l’Ail et Fromage</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Nellore Chitti Kaaram Dosa (3)</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Ghee Podi Sett Dosa (3)</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> CHILLI GARLIC DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'ail et au piment ordinaire / Plain Chilly Garlic Dosa</p>
+            <p class="item-description">
+                Crêpe croustillante garnie de masala de pommes de terre épicé et agrémentée d’une fine couche de chutney robuste au piment et à l’ail.<br>
+                A crispy crepe filled with spicy potato masala and laced with thin layer of robust chili-garlic chutney.
+            </p>
+        </div>
+        <div class="item-price">12.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala aux oignons, à l'ail et au piment / Chilly Garlic Onion Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au poulet, à l'ail et au piment / Chilly Garlic Chicken Masala Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala à l'agneau, à l'ail et au piment / Chilly Garlic Lamb Masala Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au paneer, à l'ail et au piment / Chilly Garlic Paneer Masala Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa aux œufs, à l'ail et au piment / Chilly Garlic Egg Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> CHETTINAD DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire Chettinad / Chettinad Plain Dosa</p>
+        </div>
+        <div class="item-price">12.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa aux oignons Chettinad / Chettinad Onion Dosa</p>
+        </div>
+        <div class="item-price">13.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala Chettinad / Chettinad Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa aux œufs Chettinad / Chettinad Egg Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au paneer Chettinad / Chettinad Paneer Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au poulet Chettinad / Chettinad Chicken Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'agneau Chettinad / Chettinad Lamb Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> SCHEZWAN DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire Schezwan / Schezwan Plain Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala Schezwan / Schezwan Masala Dosa</p>
+        </div>
+        <div class="item-price">13.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au paneer Schezwan / Schezwan Paneer Masala Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au ghee Schezwan / Schezwan Ghee Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au fromage Schezwan / Schezwan Cheese Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Zinni Schezwan / Schezwan Zinni Dosa</p>
+        </div>
+        <div class="item-price">15.49$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> PAV BHAJI DOSA </h2>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Pav Bhaji au Ghee / Ghee Pav Bhaji Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Pav Bhaji au Fromage / Cheese Pav Bhaji Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Pav Bhaji au Paneer / Paneer Pav Bhaji Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Pav Bhaji aux Oignons et au Piment / Chilli Onion Pav Bhaji Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> GUNTUR GONGURA ACHARI DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire à l'achari de Gongura / Gongura Plain Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala à l'achari de Gongura / Gongura Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au poulet à l'achari de Gongura / Gongura Chicken Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'agneau à l'achari de Gongura / Gongura Lamb Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> MYSORE DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire de Mysore / Mysore Plain Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au ghee de Mysore / Mysore Ghee Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au fromage de Mysore / Mysore Cheese Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala de Mysore / Mysore Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au paneer de Mysore / Mysore Paneer Masala Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> CORIANDER DOSA </h2>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au coriandre ordinaire / Plain Coriander Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au coriandre / Coriander Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au coriandre au ghee / Ghee Coriander Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> UPMA DOSA </h2>
+
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire à l'Upma / Upma Plain Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa Karam à l'Upma / Upma Karam Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'Upma au ghee / Upma Ghee Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'Upma aux noix de cajou / Cashew Upma Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'Upma de Mysore / Mysore Upma Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'Upma Chettinad / Chettinad Upma Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa à l'Upma à l'ail et au piment / Chilli Garlic Upma Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> KARAPPODI DOSA </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa ordinaire au karapodi / Karappodi Plain Dosa</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au ghee au karapodi / Karappodi Ghee Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au karapodi / Karappodi Masala Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa aux oignons au karapodi / Karappodi Onion Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala au poulet au karapodi / Karappodi Chicken Masala Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa masala à l'agneau au karapodi / Karappodi Lamb Masala Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa aux œufs au karapodi / Karappodi Egg Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa au paneer au karapodi / Karappodi Paneer Dosa</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+
+<div class="menu-section" *ngIf="menuId === 5">
+    <h2>IDLYS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Idly</p>
+        </div>
+        <div class="item-price">9.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Podi Idly</p>
+        </div>
+        <div class="item-price">10.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Sambar Idly</p>
+        </div>
+        <div class="item-price">10.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Rasam Idly</p>
+        </div>
+        <div class="item-price">10.99$</div>
+    </div>
+    
+</div>
+
+
+
+<div class="menu-section" *ngIf="menuId === 6"> 
+    <h2>  UTHAPPAM </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam aux oignons / Onion Uthappam</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam aux oignons et au piment / Chilli Onion Uthappam</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam aux tomates et aux oignons / Tomato Onion Uthappam</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam aux légumes mélangés / Mixed Vegetable Uthappam</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam masala / Masala Uthappam</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam au fromage / Cheese Uthappam</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Uthappam pizza au fromage / Cheese Pizza Uthappam</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+</div>
+
+
+
+<div class="menu-section" *ngIf="menuId === 4">
+    <h2> RAVVA DOSAS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Dosa de Ravva / Plain Ravva Dosa</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Oignon Ravva Dosa / Onion Ravva Dosa</p>
+        </div>
+        <div class="item-price">14.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chilli Oignon Ravva masala Dosa / Chilli Onion Ravva Masala Dosa</p>
+        </div>
+        <div class="item-price">15.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Ravva Dosa au Curry de Pommes de Terre / Ravva Masala</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Fromage Ravva Dosa / Cheese Ravva Dosa</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Oignon Ravva masala Dosa / Onion Ravva Masala Dosa</p>
+        </div>
+        <div class="item-price">15.49$</div>
+    </div>
+    
+</div>
+
+
+
+<div class="menu-section" *ngIf="menuId === 7">
+    <h2> TRADITIONAL TIFFENS / TRADITIONNEL DE TIFFENS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Vada Lentilles / Sambar Vada</p>
+            <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Vada (4 unités / units)</p>
+            <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Vadamélangé au Yaourt / Dahi Vada</p>
+            <p class="item-description">(DIMANCHE / SUNDAY ONLY)</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Venpongal / Venpongal</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poori sabji / Poori avec cari des legumes</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+</div>
+
+
+
+<div class="menu-section" *ngIf="menuId === 8">
+    <h2> BIRYANI’s </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Biryani aux Legumes / Vegetable Briyani</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Biryani aux œufs / Egg Biryani</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet Biryani / Chicken Briyani</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet 65 Biryani / Chicken 65 Biryani</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Biryani de Mouton / Mutton Briyani</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Biryani de Poisson Apollo / Apollo Fish Biryani</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+</div>
+
+
+
+<div class="menu-section" *ngIf="menuId === 9">
+    <h2> VEG CURRIES/ CARIS AU LÉGUMES </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Shahi Fromage Indien / Shahi Paneer</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Fromage Indien servi dans une purée d'épinard / Palak Paneer</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Une préparation Aubergine et Patate / Eggplant Potato</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Patate Choux Fleur Cari / Aloo Ghobi</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un mélange des Légumes Parfumées aux épices douces / Mix Veg Korma</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari de pois Chiches / Chana Masala</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari aux Lentilles du Sud de l’Inde / South Indian Dhal</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chilli Paneer</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari au Bébé Mais / Baby Corn Curry</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 10">
+    <h2> CURRIES/ NOS CARIS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet au Beurre / Butter Chicken</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari de Poulet de style Andhra / Andhra Chicken Curry</p>
+        </div>
+        <div class="item-price">14.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari de Poulet de style Gongura / Gongura Chicken Curry</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet Indien Servi dans une Purée d’épinard / Chicken Saag</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Morceaux de Poulet style Korma / Chicken Korma</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet Chipotle Tikka / Chicken Chipotle Tikka</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Morceaux d'Agneau style Shazhani / Lamb Shazhani</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Morceaux d’Agneau style Jalfrezi / Lamb Jalfrezi</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Morceaux d’Agneau style Korma / Lamb Korma</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Morceaux d’Agneau style Gongura / Lamb Gongura</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Agneau Indien Servi dans une Purée d’épinard / Lamb Saag</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari aux Crevettes / Shrimp Curry</p>
+        </div>
+        <div class="item-price">17.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Cari de Poisson Saumon / Salmon Fish Curry</p>
+        </div>
+        <div class="item-price">17.99$</div>
+    </div>
+    
+
+</div>
+
+<div class="menu-section" *ngIf="menuId === 11">
+    <h2> TRADITIONAL RICE ITEMS / TRADITIONNEL DE RIZ</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Lentilles / Sambar Rice</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Riz mélangé au Yaourt et grains de moutarde, feuille de cari / Curd Rice</p>
+        </div>
+        <div class="item-price">12.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Riz frit aux légumes / Veg Fried Rice</p>
+        </div>
+        <div class="item-price">13.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Riz frit au poulet / Chicken Fried Rice</p>
+        </div>
+        <div class="item-price">15.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Riz frit à l'agneau / Lamb Fried Rice</p>
+        </div>
+        <div class="item-price">16.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 12">
+    <h2> BREADS/ PAINS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un pain de farine blanche style Tandour / Tandoor Naan</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un pain de farine blanche avec de l’ail style Tandour / Garlic Naan</p>
+        </div>
+        <div class="item-price">4.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un pain plat de blé entier sans levain / Roti</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un pain de farine blanche avec Fromage / Cheese Naan</p>
+        </div>
+        <div class="item-price">5.99$</div>
+    </div>
+    
+</div>
+
+<div class="menu-section" *ngIf="menuId === 13">
+    <h2> EXTRAS /SUPPLÉMENTAIRE </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Riz / Rice</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Raitha</p>
+        </div>
+        <div class="item-price">2.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Un ragoût de légumes à la base de lentilles / Sambar</p>
+        </div>
+        <div class="item-price">2.49$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Chutney (tamarin, noix de coco, gingembre, menthe) / Chutney</p>
+        </div>
+        <div class="item-price">1.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Masala de pommes de terre pour dosas / Dosa Masala</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Fromage / Cheese</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Papads / Fryums</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+</div>
+
+
+<div class="menu-section" *ngIf="menuId === 14">
+    <h2> DESSERTS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Kesar Rasmalai</p>
+        </div>
+        <div class="item-price">5.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Mango Rasmalai</p>
+        </div>
+        <div class="item-price">5.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Lassi à la Mangue / Mango Lassi</p>
+        </div>
+        <div class="item-price">6.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Lassi à la Épice / Salty Masala Lassi</p>
+        </div>
+        <div class="item-price">6.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Boules de fromage en sirop avec de la crème glacée / Ice Cream Gulab Jamun</p>
+        </div>
+        <div class="item-price">6.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Falooda avec de la crème glacée / Falooda with Ice Cream</p>
+        </div>
+        <div class="item-price">11.99$</div>
+    </div>
+    
+</div>
+
+
+<div class="menu-section" *ngIf="menuId === 15">
+    <h2> DRINKS /BOISSONS </h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Bouteille d'Eau / Water Bottle</p>
+        </div>
+        <div class="item-price">1.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Boisson Gazeuse / Soft Drink</p>
+        </div>
+        <div class="item-price">1.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Boisson Gazeuse Indienne / Indian Soft Drink</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Bouteille de Jus / Juice Bottle</p>
+        </div>
+        <div class="item-price">2.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Perrier</p>
+        </div>
+        <div class="item-price">3.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Café Sud-Indien / South Indian Coffee</p>
+        </div>
+        <div class="item-price">4.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Masala Chai</p>
+        </div>
+        <div class="item-price">4.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Badam Chai</p>
+        </div>
+        <div class="item-price">5.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Badam Milk</p>
+        </div>
+        <div class="item-price">9.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Horlicks / Boost</p>
+        </div>
+        <div class="item-price">5.99$</div>
+    </div>
+    
+</div>
+
+
+<div class="menu-section" *ngIf="menuId === 16">
+    <h2>MAHA RAJA THALI’S</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Végétariens / Vegetarian Thali</p>
+            <p class="item-description">Le repas inclut trois portions de caris prédéterminés avec salade, apéritif, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of three predetermined curries along with salad, appetizer, sambar, raitha, papad, dessert served with rice and roti.</p>
+        </div>
+        <div class="item-price">20.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet / Chicken Thali</p>
+            <p class="item-description">Le repas inclut une portion de cari de poulet, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of chicken curry and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+        </div>
+        <div class="item-price">22.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Agneau / Lamb Thali</p>
+            <p class="item-description">Le repas inclut une portion de cari d’agneau, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of lamb curry and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+        </div>
+        <div class="item-price">24.99$</div>
+    </div>
+    
+    <div class="menu-item">
+        <div class="item-info">
+            <p class="item-name">Poulet au beurre / Butter Chicken Thali</p>
+            <p class="item-description">Le repas inclut une portion de cari de poulet au beurre, deux portions de caris prédéterminés végé avec poulet 65, salade, sambar, raitha, papad, dessert servi avec du riz et du roti. The meal comes with a portion of butter chicken and two predetermined veg curries along with chicken 65, salad, sambar, raitha, papad, dessert served with rice and roti.</p>
+        </div>
+        <div class="item-price">24.99$</div>
+    </div>
+    
+</div>

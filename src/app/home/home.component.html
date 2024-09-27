@@ -1,0 +1,176 @@
+
+
+<div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-images">
+        <div *ngFor="let image of images; let i = index" class="carousel-image" [class.active]="i === currentIndex">
+          <img [src]="image" alt="Carousel Image" src="../../assets/images/banner1.JPG"/>
+          <div class="overlay">
+            <h1 class="welcome-text" style="position: absolute; top: 100px; left: 75px; font-size: 3rem; color: white;">
+              <strong>Welcome To <br> OurPlace Restaurant</strong> <br/> </h1>
+           <div style="position: absolute; bottom: 70%; left: 75px; font-size: 1.5rem; color: white;"> 
+              <!-- <span>  See how your users experience your website in realtime or view <br> 
+              trends to see any changes in performance over time.
+            </span> <br/> 
+              <a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a>-->
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="scroll-button left" (click)="scroll(-1)">&#10094;</button>
+    <button class="scroll-button right" (click)="scroll(1)">&#10095;</button>
+  </div>  
+  
+  
+  
+  
+  <!-- Start slides -->
+  
+  <!-- End slides -->
+  
+  <!-- Start About -->
+  <div class="about-section-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="../assets/images/about-img.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 text-center">
+          <div class="inner-column">
+            <h1>Welcome To <span>OurPlace Restaurant</span></h1>
+<h4>Little Story</h4>
+<p>At OurPlace Restaurant, we take pride in serving authentic South Indian cuisine. Specializing in dosas, biryanis, pulavs, and other traditional Indian dishes, we offer a culinary experience that transports you to the heart of South India. Our dosas are expertly crafted to be crispy and flavorful, while our biryanis and pulavs are prepared with aromatic spices and fresh ingredients. Each dish is made with care to ensure the highest quality and an unforgettable dining experience.</p>
+<p>Join us for a taste of the rich and diverse flavors of South Indian cuisine. From our signature dosas and biryanis to our comforting curries and fresh, spicy pulavs, every meal is a celebration of traditional recipes and authentic flavors. Whether you're a fan of spicy curries or savory dosas, OurPlace Restaurant is your destination for a delightful South Indian feast.</p>
+
+          <!-- <a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About -->
+  
+  <!-- Start QT -->
+  <div class="qt-box qt-background">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto text-left">
+          <p class="lead ">
+            " If you're not the one cooking, stay out of the way and compliment the chef. "
+          </p>
+          <span class="lead">Michael Strahan</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<div class="gallery-box">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="heading-title text-center">
+          
+          <h2>Our Specialities </h2>
+<p> Our gallery features images of our signature dosas, biryanis, and pulavs, offering a glimpse into the delicious and vibrant dishes that define our South Indian cuisine. Enjoy exploring our culinary creations and get a taste of what awaits you at our restaurant.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="tz-gallery">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-01.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-01.jpg" alt="Gallery Images">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-02.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-02.jpg" alt="Gallery Images">
+          </a>
+        </div>
+        <!-- <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-03.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-03.jpg" alt="Gallery Images">
+          </a>
+        </div> -->
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-04.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-04.jpg" alt="Gallery Images">
+          </a>
+        </div>
+        
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-07.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-07.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-08.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-08.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-09.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-09.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <!-- <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-10.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-10.jpg" alt="Gallery Images">
+          </a>
+        </div> -->
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-05.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-05.jpg" alt="Gallery Images">
+          </a>
+        </div> 
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-06.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-06.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+           <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-03.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-03.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-12.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-12.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-13.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-13.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+          <a class="lightbox" href="../assets/images/gallery-img-14.jpg">
+            <img class="img-fluid" src="../assets/images/gallery-img-14.jpg" alt="Gallery Images">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- End QT -->
+  
+  <!-- End Menu -->
+  
+  <!-- Start Gallery -->
+  
+  <!-- End Gallery -->
+  
